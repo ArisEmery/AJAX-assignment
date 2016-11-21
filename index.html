@@ -1,0 +1,35 @@
+<!--  1) Create a basic html page
+      2) Put a search input box in the middle of the page (for a username)
+      3) Put a search button on the page
+      4) Create a message/error element if the username isn't found
+      5) Add elements to display if user is found
+              a) profile image
+              b) username
+              c) public repo count
+              d) followers count
+-->
+<html>
+      <head>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+            <title>AJAX assignment</title>
+      </head>
+      <body>
+            <h1>Enter github username</h1>
+            <form>
+                  <input id="name" placeholder="username" type="text" >
+                  <input id="submit" type="button" value="Search">
+            </form>
+            <div id="error">
+                  <p>no such user.</p>
+            </div>
+
+            <div id="answer">
+
+            </div>
+
+      </body>
+      
+      <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+      ></script>
+      <script src="app.js"></script>
+</html>

@@ -1,0 +1,25 @@
+/*  style all the things -- try to make them decent looking :)  */
+
+
+form {
+    width:200px;
+}
+h1 {
+    text-align:left;
+}
+#error {
+    background-color: #ff9999;
+    text-align:left;
+    display:none;
+}
+#answer {
+    background-color:white;
+    width:200px;
+    display:none;
+}
+body {
+    background-color:grey;
+}
+img {
+    width:50%;
+}
